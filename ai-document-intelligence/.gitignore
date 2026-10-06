@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Data & models (كبيرة - ما بتنرفع)
+data/raw/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.faiss
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
